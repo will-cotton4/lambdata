@@ -13,9 +13,9 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
 	name="lambdata-will",
-	version="0.0.4",
+	version="0.0.5",
 	author="will-cotton4",
-	description="A collection of Data Science helper funcitons",
+	description="A collection of Data Science helper functions",
 	long_description = LONG_DESCRIPTION,
 	long_description_content_type = "text/markdown",
 	url = "https://github.com/will-cotton4/lambdata",
@@ -25,6 +25,6 @@ setuptools.setup(
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
+        "Operating System :: OS Independent"
+    ]
 )	
